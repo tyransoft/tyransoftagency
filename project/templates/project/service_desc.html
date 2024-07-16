@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container">
+    <div class="card">
+     <div class="container-fliud">
+        <div class="wrapper row">
+            <div class="preview col-md-6">
+                 <div class="preview-pic tab-contant">
+                  <div class="item">
+                    <div class="product-entry border">
+                      <img src="{{service.img.url}}" class="img-fluid" alt="...">
+                    </div>
+                  </div>
+      
+                    <div class="tap-pane active" id="pic-1">                     
+                      <div class="details col-md-6">
+                        <h3 class="product-title">{{service.name}}</h3>
+                        <p class="product-description">{{service.desc1}}</p>
+                        <h5>{{service.desc2}}</h5>
+                      </div>
+                      <div class="readmore_btn"><a href="{% url 'contact' %}">Contact us</a></div>
+
+                    </div>
+                  </div>
+
+            </div>
+
+        </div>
+
+
+      </div>
+
+
+     
+    </div>
+    </div>
+
+
+  </div>
+ <!-- Vendor JS Files -->
+{% endblock body %}
