@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-k&n@mf%(ei@-t#_%(-+j=td1n-ffo691$2hs959f#s)z1ae^i&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS=[]
+ALLOWED_HOSTS = ['tyransoftagency-production-1bf6.up.railway.app','https//:tyransoftagency-production-1bf6.up.railway.app']
+CSRF_TRUSTED_ORIGINS=['https//:tyransoftagency-production-1bf6.up.railway.app']
 INSTALLED_APPS = [
     'account',
     'django.contrib.admin',
