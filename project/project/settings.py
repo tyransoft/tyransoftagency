@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'PASSWORD':'rPPYjvcHgoqhELGmMVvhwnEPWXzUmPCS',
         'NAME':'railway',
-        'HOST':'postgres.railway.internal',
+        'HOST':'tyransoftagency.vercel.app',
         'PORT':'5432',
     }
 }
