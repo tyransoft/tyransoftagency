@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-k&n@mf%(ei@-t#_%(-+j=td1n-ffo691$2hs959f#s)z1ae^i&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['.vercel.app']
 INSTALLED_APPS = [
     'account',
     'django.contrib.admin',
@@ -73,15 +73,11 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
+# https://docs.djangoproject.com/en/5.0/ref/settings/#database
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'PASSWORD':'rPPYjvcHgoqhELGmMVvhwnEPWXzUmPCS',
-        'NAME':'railway',
-        'HOST':'tyransoftagency.vercel.app',
-        'PORT':'5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
