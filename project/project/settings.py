@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-k&n@mf%(ei@-t#_%(-+j=td1n-ffo691$2hs959f#s)z1ae^i&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['tyransoft.rf.gd']
 INSTALLED_APPS = [
     'account',
     'django.contrib.admin',
